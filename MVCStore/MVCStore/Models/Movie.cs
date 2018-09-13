@@ -13,11 +13,18 @@ namespace MVCStore.Models
         }
 
         public byte Id { get; set; }
-        public String Title { get; set; }
+        public string Title { get; set; }
         public GenreType Genre { get; set; }
-        public int DateOfRelease { get; set; }
+        public DateTime DateOfRelease { get; set; }
         public double Price { get; set; }
 
+        // Temporary hard-coded data
+
+        public static Movie[] getMovies()
+        {
+            var movies = new Movie[]{new Movie(){Title = "Aliens", Genre = GenreType.Horror, DateOfRelease = new DateTime(1986, 04, 12), Price = 3.50}};
+            return movies;
+        }
 
         
     }
