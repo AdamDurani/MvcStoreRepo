@@ -23,9 +23,9 @@ namespace MVCStore.Models
         {
             Account[] accounts =
             {
-                new Account{UserName = "Person98", Holder = new Person{FirstName = "Bob", SecondName= "Smith", DateOfBirth = new DateTime(1973, 02, 12)}},
-                new Account{UserName = "Person94", Holder = new Person{FirstName = "Sara", SecondName= "Gold", DateOfBirth = new DateTime(1984, 05, 22)}},
-                new Account{UserName = "Person98", Holder = new Person{FirstName = "Sally", SecondName= "Walker", DateOfBirth = new DateTime(1991, 08, 15)}}
+                new Account{UserName = "Person98", Holder = new Person{FirstName = "Bob", SecondName= "Smith", DateOfBirth = new DateTime(1973, 02, 12)}, Membership = MembershipType.Monthly},
+                new Account{UserName = "Person94", Holder = new Person{FirstName = "Sara", SecondName= "Gold", DateOfBirth = new DateTime(1984, 05, 22)}, Membership = MembershipType.Annually},
+                new Account{UserName = "Person98", Holder = new Person{FirstName = "Sally", SecondName= "Walker", DateOfBirth = new DateTime(1991, 08, 15)}, Membership = MembershipType.PayAsYouGo}
                 
             };
 
