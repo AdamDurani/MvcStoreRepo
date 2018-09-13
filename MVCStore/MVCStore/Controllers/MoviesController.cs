@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MVCStore.Models;
 
 namespace MVCStore.Controllers
 {
@@ -10,7 +11,8 @@ namespace MVCStore.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+
+            return View(Movie.getMovies());
         }
     }
 }

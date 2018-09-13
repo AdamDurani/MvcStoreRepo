@@ -64,3 +64,4 @@ C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.dll
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.pdb
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.csproj.CopyComplete
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
