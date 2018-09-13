@@ -13,12 +13,12 @@ namespace MVCStore.Models
         }
 
         public byte Id { get; set; }
-        public String UserName { get; set; }
+        public string UserName { get; set; }
         public Person Holder { get; set; }
         public List<Movie> Movies { get; set; }
         public MembershipType Membership { get; set; }
 
-
+        //Temporary hardcoded data
         public static Account[] GetAccounts()
         {
             Account[] accounts =
