@@ -69,6 +69,6 @@ C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Vie
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Index.g.cshtml.cs
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.g.cshtml.cs
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.g.cshtml.cs
-C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.csprojAssemblyReference.cache

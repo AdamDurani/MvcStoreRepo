@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
+<h2>Movies</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Add Movie</a>
 </p>
 <table class="table">
     <thead>
@@ -37,14 +37,13 @@
                 @Html.DisplayFor(modelItem => item.Genre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DateOfRelease)
+                @item.GetReleaseDate()
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                £@Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MovieId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MovieId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.MovieId">Delete</a>
             </td>
         </tr>
