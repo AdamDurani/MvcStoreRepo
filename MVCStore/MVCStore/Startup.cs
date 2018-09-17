@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MVCStore.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MVCStore
 {
@@ -32,6 +34,9 @@ namespace MVCStore
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            var connection = @"Server=localhost\TEST;Database=Store;User Id=MovieStoreData;Password=hjagdhjgsyetd678rt34dgyuv34urd67g;";
+            services.AddDbContext<StoreContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

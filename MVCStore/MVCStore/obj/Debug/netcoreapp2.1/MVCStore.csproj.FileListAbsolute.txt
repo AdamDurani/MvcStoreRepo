@@ -38,7 +38,6 @@ C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\bin\Debug\netcoreapp2.1\MVCStore.
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\bin\Debug\netcoreapp2.1\MVCStore.pdb
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\bin\Debug\netcoreapp2.1\MVCStore.Views.dll
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\bin\Debug\netcoreapp2.1\MVCStore.Views.pdb
-C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.csprojAssemblyReference.cache
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.csproj.CoreCompileInputs.cache
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.RazorAssemblyInfo.cache
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.RazorAssemblyInfo.cs
@@ -63,3 +62,13 @@ C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.dll
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.pdb
 C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\MVCStore.csproj.CopyComplete
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Create.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Delete.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Details.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Edit.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Index.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
+C:\www\Practice\MvcStoreRepo\MVCStore\MVCStore\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
