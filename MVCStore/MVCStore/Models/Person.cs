@@ -7,9 +7,9 @@ namespace MVCStore.Models
 {
     public class Person
     {
-        public byte Id { get; set; }
-        public String FirstName { get; set; }
-        public String SecondName { get; set; }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string SecondName { get; set; }
         public DateTime DateOfBirth { get; set; }
         
     }

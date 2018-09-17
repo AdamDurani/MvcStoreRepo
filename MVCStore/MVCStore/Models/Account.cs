@@ -12,11 +12,16 @@ namespace MVCStore.Models
             PayAsYouGo, Monthly, Annually
         }
 
-        public byte Id { get; set; }
+        public int Id { get; set; }
         public string UserName { get; set; }
-        public Person Holder { get; set; }
         public List<Movie> Movies { get; set; }
         public MembershipType Membership { get; set; }
+
+        public int HolderId {get;set;}
+
+
+        [System.ComponentModel.DataAnnotations.Schema.ForeignKey("HolderId")]
+        public virtual Person Holder { get; set; }
 
         //Temporary hardcoded data
         public static Account[] GetAccounts()
